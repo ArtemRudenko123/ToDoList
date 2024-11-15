@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: gray;
+}
+body .title {
+  text-align: center;
+}
+body .container {
+  background-color: white;
+  padding: 24px;
+  width: 500px;
+}
+body .form__container {
+  display: flex;
+}
+body .form__container-input {
+  width: 100%;
+  border: 2px solid gray;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+body .form__container-input :focus {
+  outline: none;
+  border: 2px solid blue;
+}
+body .form__container-button {
+  background-color: blue;
+  border: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+body .list {
+  padding: 0;
+}
+body .list .todo {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 0;
+}
+body .list .todo__label-title {
+  font-size: 25px;
+}
+body .list .todo__settings-delete {
+  background-color: rgba(255, 0, 0, 0);
+  border: none;
+  font-size: 20px;
+  color: red;
+}
+body .list .todo__settings-edit {
+  background-color: rgba(255, 0, 0, 0);
+  border: none;
+  font-size: 20px;
+  color: rgb(21, 0, 255);
+}/*# sourceMappingURL=index.css.map */
